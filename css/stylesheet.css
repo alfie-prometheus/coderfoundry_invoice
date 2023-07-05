@@ -15,3 +15,8 @@
     vertical-align: middle;
     display: flex;
 }
+
+.container-fluid.border-dark {
+    display: flex;
+    justify-content: center;
+}
