@@ -1,0 +1,22 @@
+.border{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container{
+    margin-left: 0px;
+}
+
+.client_number{
+    padding: 20px;
+    width: 40%;
+    margin-top: 20px;
+    vertical-align: middle;
+    display: flex;
+}
+
+.container-fluid.border-dark {
+    display: flex;
+    justify-content: center;
+}

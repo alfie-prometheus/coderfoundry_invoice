@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Invoice</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!--CSS stylesheet-->
+    <link href="/css/stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="border border-dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12" style="min-height: 100px">
+                    <button type="button" class="btn-dark btn-lg mt-2 float-end">Print this page</button>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 20px">
+                <div class="col-8 mt-2">
+                    <img src="/img/IdeaFoundryLogo.png">
+                </div>
+                <div class="col-4 d-flex align-items-center justify-content-end">
+                    <h3>Client No: 4908</h3>
+                </div>
+            </div>
+            <div class="row border border-start-0 border-end-0 border-dark" style="margin-left:0; margin-right:0">
+                <div class="col-10 mt-2">
+                    <p><b>Date:</b>05/12/2019</p>
+                </div>
+                <div class="col-2 d-flex justify-content-end">
+                    <p><b>Invoice No:</b>19005</p>
+                </div>
+            </div>
+            <div class="row border border-top-0 border-start-0 border-end-0 border-dark" style="margin-left:0; margin-right:0; margin-top:0;">
+                <div class="col-10">
+                    <p><b>Invoice To:</b><br>Mark Davis<br>3333 Al Davis Way<br>Las Vegas, NV 89118</p>
+                </div>
+                <div class="col-2 d-flex justify-content-end">
+                    <p><b>Pay To:</b><br>Idea Foundry,Irc.<br>2705 N. Enterprise St<br>Kernersville, NC27284</p>
+                </div>
+            </div>
+            <div class="row table-responsive">
+                <table class="table table-striped table-bordered">
+                   <thead class="thead-dark">
+                        <tr>
+                            <th>Service</th>
+                            <th>Description</th>
+                            <th>Rate</th> 
+                            <th>Qty</th>
+                            <th>Amount</th>
+                        </tr>
+                   </thead>
+                   <tbody>
+                        <tr>
+                            <td>Design</td>
+                            <td>Website Design</td>
+                            <td>$60.00</td>
+                            <td>10</td>
+                            <td>$600.00</td>
+                        </tr>
+                        <tr>
+                            <td>Development</td>
+                            <td>Website Development</td>
+                            <td>$150.00</td>
+                            <td>10</td>
+                            <td>$1,500.00</td>
+                        </tr>
+                        <tr>
+                            <td>Deployment</td>
+                            <td>Deployment and Hosting</td>
+                            <td>$450.00</td>
+                            <td>1</td>
+                            <td>$450.00</td>
+                        </tr>
+                   </tbody>
+                   <tfoot>
+                        <tr>
+                            <td colspan="4">Sub Total:</td>
+                            <td>$2,550.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">Tax:</td>
+                            <td>$0.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">Total:</td>
+                            <td>$2,550.00</td>
+                        </tr><tr>
+                            <td colspan="4"><strong>NOTE:</strong> This is computer generated receipt and does not require physical signature.</td>
+                            <td>$2,550.00</td>
+                        </tr>
+                   </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
